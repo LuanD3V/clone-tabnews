@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div style={{ margin: "auto", textAlign: "center" }}>
-      <h1>Eu te amo meu AMOOOR!!!</h1>
+      <h1>Hello World!</h1>
     </div>
   );
 }
