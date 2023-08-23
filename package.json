@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "jest --watch"
   },
   "author": "Luan dos Santos",
   "license": "MIT",
@@ -16,6 +17,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "jest": "^29.6.2",
     "prettier": "^3.0.0"
   }
 }
