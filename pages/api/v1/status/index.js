@@ -1,5 +1,6 @@
 function status(request, response) {
-  response.status(200).json({ status: "OK" });
+  const updateAt = new Date().toISOString();
+  response.status(200).json({ status: "OK", update_at: updateAt });
 }
 
 export default status;
